@@ -30,6 +30,13 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
@@ -58,6 +65,8 @@
       <artifactId>aspectjweaver</artifactId>
       <version>1.8.13</version>
     </dependency>
+
+
 
     <dependency>
       <groupId>org.springframework</groupId>
@@ -148,33 +157,6 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>${spring.version}</version>
-    </dependency>
-
-    <!--试图（view）层依赖 -->
-    <dependency><!-- servlet依赖 -->
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>3.1.0</version>
-      <scope>provided</scope>
-    </dependency>
-
-    <dependency><!-- jsp依赖 -->
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>javax.servlet.jsp-api</artifactId>
-      <version>2.3.3</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency><!--taglibs-->
-      <groupId>taglibs</groupId>
-      <artifactId>standard</artifactId>
-      <version>1.1.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency><!--jstl-->
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
-      <version>1.2</version>
-      <scope>runtime</scope>
     </dependency>
 
 
@@ -307,7 +289,6 @@
     </dependency>
 
   </dependencies>
-
 
   <build>
     <finalName>sm01</finalName>
